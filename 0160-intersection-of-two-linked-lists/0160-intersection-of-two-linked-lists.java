@@ -11,20 +11,33 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode pointerA = headA;
- 
+        int lenA = getListLength(headA);
+        int lenB = getListLength(headB);
 
-        //brute force approach
-        while(pointerA != null){
-            ListNode pointerB = headB;
-            while(pointerB != null){
-                if(pointerA == pointerB){
-                    return pointerA;
-                }
-                pointerB = pointerB.next;
-            }
-            pointerA = pointerA.next;
+        while(lenA > lenB){
+            lenA--;
+            headA = headA.next;
         }
-        return null;
+
+        while(lenB > lenA){
+            lenB--;
+            headB = headB.next;
+        }
+
+        while(headA != headB){
+            headA= headA.next;
+            headB= headB.next;
+        }
+        return headA;
+    }
+
+    public int getListLength(ListNode head){
+        ListNode temp = head;
+        int count = 0;
+        while(temp != null ){
+            count++;
+            temp = temp.next;
+        }
+        return count;
     }
 }
