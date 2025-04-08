@@ -6,14 +6,14 @@ class Solution {
         do{
             slow = findSquare(slow);
             fast = findSquare(findSquare(fast));
+        }while(slow != fast);
+        
            if(fast == 1){
             return true;
            }
            if(slow == fast){
             return false;
            }
-
-        }while(slow != fast);
 
         //no cycle detected;
         return true;
