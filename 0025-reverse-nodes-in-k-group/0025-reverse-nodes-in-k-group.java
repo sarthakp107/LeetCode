@@ -9,50 +9,53 @@
  * }
  */
 class Solution {
-    public ListNode reverseKGroup(ListNode head, int k) {
-    if (head == null || k == 1) return head;
+    public ListNode reverseKGroup(ListNode head, int k) 
+    {
+        ListNode dummy = new ListNode(0 , head);
+        ListNode prevGrpEnd = dummy;
 
-    ListNode dummy = new ListNode(0);
-    dummy.next = head;
-    ListNode prevGroupEnd = dummy;
-
-    ListNode start = head;
-    ListNode end = head;
-
-    while (end != null) {
-        // Check if we have k nodes
-        for (int i = 1; i < k; i++) {
-            end = end.next;
-            if (end == null) return dummy.next;
+        if(head == null || k == 1){
+            return head;
         }
 
-        ListNode endNext = end.next;
+        ListNode start = head;
+        ListNode end = head;
 
-        // Reverse the group
-        ListNode prev = null;
-        ListNode curr = start;
-        ListNode next = null;
+        while(end != null){
+            for(int i = 1; i<= k-1; i++){
+                if(end == null || end.next == null){
+                    return dummy.next;
+                }
+                end = end.next;
+            }
+            ListNode endNext = end.next;
 
-        while (curr != endNext) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+            //rev
+            ListNode prev = null;
+            ListNode curr = start;
+            ListNode next = curr.next;
+
+            while(curr != endNext){
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+                if(next != null){
+
+                next = next.next;
+                }
+            }
+            //connect the lists
+            //i have to make head as 2
+            prevGrpEnd.next = prev;
+            start.next = endNext;
+
+            //IMPORTANT
+            prevGrpEnd = start;
+            start = endNext;
+            end = endNext;
         }
-
-        // Reconnect the reversed group
-        prevGroupEnd.next = prev;
-        start.next = endNext;
-
-        // Move to next group
-        prevGroupEnd = start;
-        start = endNext;
-        end = endNext;
+        return dummy.next;
     }
-
-    return dummy.next;
-}
-
        
    
 }
