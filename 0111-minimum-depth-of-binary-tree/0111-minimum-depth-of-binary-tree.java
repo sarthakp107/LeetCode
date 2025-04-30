@@ -22,6 +22,7 @@ class Solution {
         if(n.left == null){
             return 1 + minDepth(n.right);
         }
+
         if(n.right == null){
             return 1 + minDepth(n.left);
         }
