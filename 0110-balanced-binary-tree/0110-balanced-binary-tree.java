@@ -14,21 +14,26 @@
  * }
  */
 class Solution {
-    public int h(TreeNode node){
-        if(node == null){
-            return 0;
+       
+    public int height(TreeNode n){
+        if(n == null){
+            return 0; 
         }
-        return Math.max(h(node.left), h(node.right)) + 1;
+       
+        return 1 + Math.max(height(n.left) , height(n.right));
+
     }
-    public boolean isBalanced(TreeNode root) {
-        if(root == null){
+
+    public boolean isBalanced(TreeNode r){
+        if(r == null){
             return true;
         }
 
-        int lh = h(root.left);
-        int rh = h(root.right);
 
-        return Math.abs(lh - rh) <=1 && isBalanced(root.left) &&isBalanced(root.right);
+        //for a tree to be balanced, the height of left and right should be <= 1.. abs
+        //check for each node
+        return Math.abs(height(r.left) - height(r.right)) <= 1 && isBalanced(r.left) &&isBalanced(r.right);
     }
+
 
 }
