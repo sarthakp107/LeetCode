@@ -15,10 +15,7 @@
  */
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-
-        
-        List<List<Integer>> result = new ArrayList<>();
-
+       List<List<Integer>> result = new ArrayList<>();
         if(root == null){
             return result;
         }
@@ -27,21 +24,25 @@ class Solution {
         q.offer(root);
 
         while(!q.isEmpty()){
-            int levelSize = q.size();
-            List<Integer> currentLevelList = new ArrayList<>();
-            for(int i = 0 ; i < levelSize; i++){
-                TreeNode currentNode = q.poll();
-                currentLevelList.add(currentNode.val);
-                if(currentNode.left != null){
-                    q.offer(currentNode.left);
-                }
+            int qSize = q.size();
+            List<Integer> currentList = new ArrayList<>();
+            for(int i = 0 ; i < qSize ; i++){
+                //remove the element
+                TreeNode cNode = q.poll();
+                //add that element to the list
+                currentList.add(cNode.val);
 
-                if(currentNode.right != null){
-                    q.offer(currentNode.right);
+                if(cNode.left != null){
+                    q.offer(cNode.left);
+                }
+                if(cNode.right != null){
+                    q.offer(cNode.right);
                 }
             }
-            result.add(currentLevelList);
+            result.add(currentList);
         }
-        return result;
+
+
+       return result;
     }
 }
