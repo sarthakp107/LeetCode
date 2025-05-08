@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/sarthakp107/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/sarthakp107/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/sarthakp107/LeetCode/tree/master/0202-happy-number) |
+| [0217-contains-duplicate](https://github.com/sarthakp107/LeetCode/tree/master/0217-contains-duplicate) |
 ## Two Pointers
 |  |
 | ------- |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/sarthakp107/LeetCode/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sarthakp107/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0217-contains-duplicate](https://github.com/sarthakp107/LeetCode/tree/master/0217-contains-duplicate) |
 ## Stack
 |  |
 | ------- |
@@ -162,4 +164,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sarthakp107/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/sarthakp107/LeetCode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
