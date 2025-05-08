@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/sarthakp107/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/sarthakp107/LeetCode/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/sarthakp107/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 ## Two Pointers
 |  |
 | ------- |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 | [0572-subtree-of-another-tree](https://github.com/sarthakp107/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -168,4 +170,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/sarthakp107/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
