@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/sarthakp107/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sarthakp107/LeetCode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/sarthakp107/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sarthakp107/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/sarthakp107/LeetCode/tree/master/0143-reorder-list) |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [1013-fibonacci-number](https://github.com/sarthakp107/LeetCode/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -79,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/sarthakp107/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sarthakp107/LeetCode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/sarthakp107/LeetCode/tree/master/0036-valid-sudoku) |
+| [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/sarthakp107/LeetCode/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sarthakp107/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/sarthakp107/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -88,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/sarthakp107/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/sarthakp107/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/sarthakp107/LeetCode/tree/master/0234-palindrome-linked-list) |
@@ -221,4 +225,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sarthakp107/LeetCode/tree/master/0011-container-with-most-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
