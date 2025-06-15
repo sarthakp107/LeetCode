@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/sarthakp107/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/sarthakp107/LeetCode/tree/master/0143-reorder-list) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/sarthakp107/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 | [0572-subtree-of-another-tree](https://github.com/sarthakp107/LeetCode/tree/master/0572-subtree-of-another-tree) |
