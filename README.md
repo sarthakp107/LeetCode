@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sarthakp107/LeetCode/tree/master/0042-trapping-rain-water) |
 | [1013-fibonacci-number](https://github.com/sarthakp107/LeetCode/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -170,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sarthakp107/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 | [0572-subtree-of-another-tree](https://github.com/sarthakp107/LeetCode/tree/master/0572-subtree-of-another-tree) |
@@ -236,4 +238,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/sarthakp107/LeetCode/tree/master/0155-min-stack) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/sarthakp107/LeetCode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
