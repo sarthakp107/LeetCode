@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/sarthakp107/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/sarthakp107/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/sarthakp107/LeetCode/tree/master/0567-permutation-in-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/sarthakp107/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/sarthakp107/LeetCode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/sarthakp107/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0567-permutation-in-string](https://github.com/sarthakp107/LeetCode/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/sarthakp107/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Math
 |  |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/sarthakp107/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/sarthakp107/LeetCode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/sarthakp107/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/sarthakp107/LeetCode/tree/master/0567-permutation-in-string) |
 | [0572-subtree-of-another-tree](https://github.com/sarthakp107/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -263,4 +266,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sarthakp107/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/sarthakp107/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/sarthakp107/LeetCode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
